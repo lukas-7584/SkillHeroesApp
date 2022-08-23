@@ -3,7 +3,7 @@ import React from 'react'
 import { useReducer } from 'react'
 import { types } from '../types/types'
 import { AuthContext } from './AuthContext'
-import { authReducer } from './AuthReducer'
+import { authReducer } from './authReducer'
 
 const initialState = {
     logged : false,

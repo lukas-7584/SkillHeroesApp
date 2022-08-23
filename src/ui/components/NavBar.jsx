@@ -24,7 +24,7 @@ export const Navbar = () => {
 
     return (
 
-        <div >
+        <div  className='animate__animated animate__lightSpeedInRight'>
         <nav className="navbar navbar-expand-lg bg-primary mb-5">
             <div className="container-fluid">
             <Link to='/'>
@@ -44,22 +44,22 @@ export const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item navTitulo">
-                    <Link className="navbar-brand colorSpan" to="/">
+                    <Link className="navbar-brand colorSpan titulos" to="/">
                     HeroesApp
                     </Link>
                 </li>
                 <li className="nav-item navTitulo">
-                    <Link className="navbar-brand colorSpan" to='/marvel'>
+                    <Link className="navbar-brand colorSpan titulos" to='/marvel'>
                     Marvel Comic
                     </Link>
                 </li>
                 <li className="nav-item navTitulo">
-                    <Link className="navbar-brand colorSpan" to='/dc'>
+                    <Link className="navbar-brand colorSpan titulos" to='/dc'>
                         DC
                     </Link>
                 </li>
                 <li className="nav-item navTitulo">
-                    <Link className="navbar-brand colorSpan" to='/search'>
+                    <Link className="navbar-brand colorSpan titulos" to='/search'>
                         Search
                     </Link>
                 </li>

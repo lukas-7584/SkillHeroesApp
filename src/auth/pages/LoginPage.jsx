@@ -20,13 +20,16 @@ export const LoginPage = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <h1>LoginPage</h1>
+
+    <section className='loginContainer'>
+    <div className="fondoLogin ">
+      <h1 className='entrada'>Deseas Entrar</h1>
       <hr />
 
       <button className="btn btn-primary" onClick={onLogin}>
-        Login
+        Aceptar!!
       </button>
     </div>
+    </section>
   );
 };

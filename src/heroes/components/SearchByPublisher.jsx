@@ -12,12 +12,12 @@ export const SearchByPublisher = memo(({setReset}) => {
     <>
 
 
-<Accordion  allowMultiple >
+<Accordion  allowMultiple  className='animate__animated animate__lightSpeedInRight'>
   <AccordionItem className='finder' >
     <h2>
       <AccordionButton >
         <Box flex='1' textAlign='center' fontSize='4xl'>
-          <h1>Find By Publisher</h1>          
+          <h1 className='titulosFind animate__animated animate__lightSpeedInRight'>Find By Publisher</h1>          
         </Box>
         <AccordionIcon />
       </AccordionButton>
